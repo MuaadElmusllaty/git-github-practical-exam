@@ -1,0 +1,17 @@
+
+```txt
+# Student Information
+# -------------------
+# Name: [EDIT HERE - Add Your Name]
+# Date: [EDIT HERE - Add Today's Date]
+# Exam: Git Practical Test
+
+# Task Instructions:
+# 1. Replace [EDIT HERE] with your information
+# 2. Save the file
+# 3. Commit your changes
+
+# Leave everything below this line as is:
+This file is used for Git practice.
+You will edit, stage, and commit this file.
+Practice makes perfect!
