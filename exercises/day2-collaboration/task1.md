@@ -11,7 +11,7 @@ Practice creating branches, merging, and handling conflicts.
 # Name: feature/contact-page
 # Use the MODERN Git command (not checkout)
 # Write the command:
-
+git switch -c feature/contact-page
 ```
 
 ### Step 2: Make Changes in Feature Branch
@@ -20,6 +20,8 @@ Practice creating branches, merging, and handling conflicts.
 # Change line 5 from "Original text" to "Modified by [Your Name]"
 # Commit with: "feat: update contact information"
 # Write the commands:
+git add conflict-example.txt
+git commit -m "feat: update contact information"
 
 ```
 
@@ -39,15 +41,35 @@ Practice creating branches, merging, and handling conflicts.
 # Answer these questions:
 
 1. What command shows you which files have conflicts?
-Answer: 
+Answer: git status
 
 2. Open conflict-example.txt and resolve the conflict.
    Keep BOTH changes (your change AND "Main branch version")
    What does the resolved file look like? Paste it here:
 
+```txt
+# Contact Information
+# -------------------
+# Company: Tech Solutions Inc.
+# Email: contact@techsolutions.com
+# Phone: +1-555-0123
+
+# This line will cause a conflict:
+Main branch version
+Modified by Muaad
+
+# Address:
+# 123 Main Street
+# Tech City, TC 10101
+
+# Leave everything below as is:
+This file demonstrates merge conflicts.
+Two people might edit the same line.
+Git needs help deciding which change to keep.
+
 3. After resolving, what TWO commands do you run to complete the merge?
 Answer: 
-   a. 
-   b. 
+   a. git add conflict-example.txt
+   b. git commit -m "fix: resolve merge conflict between main and feature branch"
 
 ```
