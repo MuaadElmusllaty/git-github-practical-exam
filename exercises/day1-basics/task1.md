@@ -34,5 +34,6 @@ Set up your exam workspace and practice basic Git commands.
 ```bash
 # Run: git log --oneline
 # Copy the output here (should show your commit):
-
+df0c2ba (HEAD -> exam/muaad) chore: add student info
+8e803f1 (origin/main, origin/exam/muaad, origin/HEAD, main) first commit
 ```
