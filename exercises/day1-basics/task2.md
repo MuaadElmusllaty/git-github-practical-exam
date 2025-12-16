@@ -14,7 +14,10 @@ Practice adding, modifying, and viewing file changes.
 # - notes.txt (with some text)
 # - practice.md (with "# Practice" as content)  
 # - temp-file.tmp (empty)
-# Write the commands you used:
+# Write the commands you used:(I'm powershell guy) so inside day1-tasks/ folder:
+    "some text">notes.txt
+    "# Practice">practice.md
+    "">temp-file.tmp
 
 ```
 
@@ -23,6 +26,8 @@ Practice adding, modifying, and viewing file changes.
 # Stage ONLY notes.txt and practice.md (not temp-file.tmp)
 # Commit with message: "feat: add practice files"
 # Write the commands:
+git add notes.txt practice.md
+git commit -m "feat: add practice files"
 
 ```
 
@@ -31,16 +36,9 @@ Practice adding, modifying, and viewing file changes.
 # Create a .gitignore file in the root folder
 # Make it ignore ALL .tmp files
 # Write the content of your .gitignore here:
-
+"*.tmp" > .gitignore
 ```
 
-### Step 4: View Changes
-```bash
-# Create a .gitignore file in the root folder
-# Make it ignore ALL .tmp files
-# Write the content of your .gitignore here:
-
-```
 
 
 
