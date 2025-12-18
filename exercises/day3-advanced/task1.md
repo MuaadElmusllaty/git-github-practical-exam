@@ -14,8 +14,8 @@ Use advanced Git commands for professional workflows.
 # 3. Verify stash was created
 # 4. Apply the stash back
 
-# Write the FOUR commands in order:
-1. 
-2. 
-3. 
-4. 
+# Write the FOUR commands in order: "I'll go to day2 folder to modify the conflict-example.txt"
+1. Add-Content conflict-example.txt "`n# Testing the stash"
+2. git stash
+3. git stash list
+4. git stash apply
